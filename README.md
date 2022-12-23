@@ -5,4 +5,4 @@ To run the application, Follow the command
 uvicorn main:app --reload
 ```
 
-or <a href="web-production-7a03.up.railway.app">Click here</a>
+or <a href="https://web-production-7a03.up.railway.app" target="_blank">Click here</a>
