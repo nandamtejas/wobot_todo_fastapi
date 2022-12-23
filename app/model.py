@@ -1,5 +1,5 @@
 from bson import ObjectId
-from typing import Optional
+from typing import Optional, List, Dict
 from pydantic import BaseModel, Field, EmailStr
 
 
@@ -90,7 +90,7 @@ class LoginResponse(BaseModel):
 
 class GetAllTodos(BaseModel):
     message: str = "Success"
-    todos: list[dict] = [{}]
+    todos: List[dict] = [{}]
 
 class GetTodo(BaseModel):
     message: str = "Success"
